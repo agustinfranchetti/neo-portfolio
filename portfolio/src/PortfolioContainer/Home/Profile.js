@@ -6,18 +6,20 @@ export default function Profile() {
         <div className='profile-parent'>
             <div className='profile-details'>
                 <div className='colz'>
-                    <a href='https://www.instagram.com/agustinfranchetti'>
-                        <i className='fa fa-instagram'></i>
-                    </a>
-                    <a href='https://www.twitter.com/agusfrancho'>
-                        <i className='fa fa-twitter-square'></i>
-                    </a>
-                    <a href='https://www.linkedin.com/in/agust%C3%ADn-franchetti-a98a6a105/'>
-                        <i className='fa fa-linkedin-square'></i>
-                    </a>
-                    <a href='https://www.github.com/agustinfranchetti'>
-                        <i className='fa fa-github-square'></i>
-                    </a>
+                    <div className='colz-icon'>
+                        <a href='https://www.instagram.com/agustinfranchetti'>
+                            <i className='fa fa-instagram'></i>
+                        </a>
+                        <a href='https://www.twitter.com/agusfrancho'>
+                            <i className='fa fa-twitter-square'></i>
+                        </a>
+                        <a href='https://www.linkedin.com/in/agust%C3%ADn-franchetti-a98a6a105/'>
+                            <i className='fa fa-linkedin-square'></i>
+                        </a>
+                        <a href='https://www.github.com/agustinfranchetti'>
+                            <i className='fa fa-github-square'></i>
+                        </a>
+                    </div>
                 </div>
                 <div className='profile-details-name'>
                     <span className='primary-text'>
@@ -47,7 +49,7 @@ export default function Profile() {
                         </h1>
                         <span className='profile-role-tagline'>
                             Fullstack developer. Mainly focused on python for backend, and react for frontend. I'm also on
-                            my 4th year of systems enfineering.
+                            my 4th year of systems engineering.
                         </span>
                     </span>
                 </div>
@@ -64,7 +66,9 @@ export default function Profile() {
                             Download Resume{" "}</button>
                     </a>
                 </div>
-
+            </div>
+            <div className='profile-picture'>
+                <div className='profile-picture-background'></div>
             </div>
         </div>
     </div>;
