@@ -32,19 +32,23 @@ export default function Profile() {
                         <Typical
                         loop={Infinity}
                         steps={[
-                            "Fullstack Developer",
+                            "Fullstack Developer 💻",
                             1000,
-                            "Python Dev",
+                            "Python Dev 🐍",
                             1000,
-                            "React Dev",
+                            "React Dev ⚛",
                             1000,
-                            "Technology Enthusiast",
+                            "Space Enthusiast 🛰",
                             1000,
                             "Pokemon Fan",
                             1000,
                         ]}
                         />
                       </h1>
+                      <span className='profile-role-tagline'>
+                          Fullstack developer. Mainly focused on python for backend, and react for frontend. I'm also on
+                          my 4th year of systems enfineering.
+                      </span>
                   </span>
               </div>
               
