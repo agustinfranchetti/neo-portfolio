@@ -50,7 +50,7 @@ export default function Profile() {
                         </h1>
                         <span className='profile-role-tagline'>
                             <p>Fullstack developer. Mainly focused on python for backend, and react for frontend.</p> 
-                            <p>I'm also onmy 4th year of systems engineering.</p>
+                            <p>I'm also on my 4th year of systems engineering.</p>
                         </span>
                     </span>
                 </div>
