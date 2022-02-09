@@ -57,6 +57,16 @@ body {
   font-family: "Poppins Regular";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding: 70px 0;
+  /* background-image: url('./assets/Home/bg-minimal.jpg'); */
+  background-size:cover;
+  background-color: #FFFBF1;
+}
+
+@media only screen and (max-width: 414px) {
+  body {
+    background-image: none;
+  }
 }
 
 code {
@@ -98,7 +108,7 @@ body ::-webkit-scrollbar-thumb {
   color: var(--white);
   border: 2px solid linen;
   font-size: 12px;
-  background-color: #063970;
+  background-color: #007785;
 }
 /* @media only screen and (max-width: 414px) {
   .hire-me {
@@ -108,15 +118,21 @@ body ::-webkit-scrollbar-thumb {
 
 .hire-me:hover {
   color: aliceblue;
-  border: 2px solid #2596be;
-  background-color: #063970;
+  border: 2px solid #FA8072;
+  background-color: #007785;
 }
 
 .highlighted-btn {
   color: var(--white);
-
+  border: 2px solid linen;
   font-size: 12px;
-  background-color: #2596be;
+  background-color: #FA8072;
+}
+
+.highlighted-btn:hover {
+  color: aliceblue;
+  border: 2px solid #007785;
+  background-color: #FA8072;
 }
 @media only screen and (max-width: 568px) {
   .highlighted-btn {
@@ -132,4 +148,8 @@ body ::-webkit-scrollbar-thumb {
   opacity: 0;
   transform: translateY(80px);
   transition: all 0.8s ease;
+}
+
+html {
+  background-color: #FFFBF1;
 }
