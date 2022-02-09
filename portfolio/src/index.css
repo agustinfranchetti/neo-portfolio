@@ -63,7 +63,7 @@ body {
   background-color: #FFFBF1;
 }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 450px) {
   body {
     background-image: none;
   }
