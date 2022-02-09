@@ -58,7 +58,7 @@ export default function Profile() {
                     <a href='mailto: agustinfranchetti@.com'>
                     <button className='btn hire-me'>
                         {" "}
-                        Hire Me!{" "}</button>
+                        Send me an Email{" "}</button>
                         </a>
                     <div>
                         {" "}
