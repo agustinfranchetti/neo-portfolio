@@ -18,3 +18,12 @@
   --toast-success: #0CBFAE;
   --loader-color: #0CBFAE
 }
+
+@media only screen and (min-width: 450px) {
+  .header-image {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+  }
+}
