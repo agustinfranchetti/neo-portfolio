@@ -1,5 +1,6 @@
 import React from 'react';
 import Typical from 'react-typical';
+import './Profile.css'
 
 export default function Profile() {
     return <div className='profile-container'>
@@ -8,7 +9,7 @@ export default function Profile() {
                 <div className='colz'>
                     <div className='colz-icon'>
                         <a href='https://www.instagram.com/agustinfranchetti'>
-                            <i className='fa fa-instagram'></i>
+                            <i className='fa fa-instagram' ></i>
                         </a>
                         <a href='https://www.twitter.com/agusfrancho'>
                             <i className='fa fa-twitter-square'></i>
@@ -29,7 +30,7 @@ export default function Profile() {
                 </div>
                 <div className='profile-details-role'>
                     <span className='primary-text'>
-                        <h1>
+                        <h1 style={{fontSize: 30}}>
                             {" "}
                             <Typical
                                 loop={Infinity}
@@ -48,18 +49,21 @@ export default function Profile() {
                             />
                         </h1>
                         <span className='profile-role-tagline'>
-                            Fullstack developer. Mainly focused on python for backend, and react for frontend. I'm also on
-                            my 4th year of systems engineering.
+                            <p>Fullstack developer. Mainly focused on python for backend, and react for frontend.</p> 
+                            <p>I'm also on my 4th year of systems engineering.</p>
                         </span>
                     </span>
                 </div>
                 <div className='profile-options'>
+                    <a href='mailto: agustinfranchetti@.com'>
                     <button className='btn hire-me'>
                         {" "}
-                        Hire Me!{" "}</button>
+                        Send me an Email{" "}</button>
+                        </a>
                     <div>
                         {" "}
                     </div>
+                    <div className='padding-btn'></div>
                     <a href='cv-franchetti-agustin.pdf' download='Franchetti-Agustin-resume.pdf'>
                         <button className='btn highlighted-btn'>
                             {" "}
