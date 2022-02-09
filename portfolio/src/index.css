@@ -137,8 +137,8 @@ body ::-webkit-scrollbar-thumb {
 
 .highlighted-btn:hover {
   color: aliceblue;
-  border: 2px solid #063970;
-  background-color: #2596be;
+  border: 2px solid #007785;
+  background-color: #FA8072;
 }
 
 @media only screen and (max-width: 568px) {
