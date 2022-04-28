@@ -11,7 +11,7 @@ export default function Profile() {
                         <a href='https://www.instagram.com/agustinfranchetti'>
                             <i className='fa fa-instagram' ></i>
                         </a>
-                        <a href='https://www.twitter.com/agusfrancho'>
+                        <a href='https://www.twitter.com/0xfrancho'>
                             <i className='fa fa-twitter-square'></i>
                         </a>
                         <a href='https://www.linkedin.com/in/agust%C3%ADn-franchetti-a98a6a105/'>
